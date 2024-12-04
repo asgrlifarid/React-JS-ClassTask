@@ -5,6 +5,7 @@ const Header = () => {
     <header>
         <div className="div">
             Bura HEADERDIR !!!
+            <p className='underline'>altimdan xett cekilib</p>
         </div>
     </header>
   )
