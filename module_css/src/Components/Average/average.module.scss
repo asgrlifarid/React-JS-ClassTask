@@ -1,0 +1,51 @@
+.umumi {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  .content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+
+
+.form {
+    display: flex;
+    max-width: 480px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input {
+    flex: 1;
+    padding: 1rem;
+    // border: none;
+    font-size: 1rem;
+    outline: none;
+  
+    &::placeholder {
+      color: #999;
+    }
+  }
+  
+.basliq {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  .yazi {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
